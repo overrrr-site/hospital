@@ -1,0 +1,8 @@
+.DS_Store
+.claude/
+debug/
+static/
+style_original.css
+faq.png
+voice.png
+*.csv
