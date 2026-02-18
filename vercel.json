@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/responsive/index.html" },
+    { "source": "/style.css", "destination": "/responsive/style.css" },
+    { "source": "/img/:path*", "destination": "/responsive/img/:path*" }
+  ]
+}
