@@ -85,6 +85,8 @@ a {
   height: 44px;
   display: block;
   margin: 0 auto -9px;
+  position: relative;
+  z-index: 1;
 }
 .campaign-banner {
   text-align: center;
