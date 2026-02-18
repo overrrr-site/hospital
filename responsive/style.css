@@ -1283,7 +1283,7 @@ a {
   z-index: 1;
   line-height: normal;
 }
-.campaign-secondary__badge-img {
+.page .campaign-secondary__badge-img {
   width: calc(100% + 20px);
   max-width: none;
   height: 33px;
