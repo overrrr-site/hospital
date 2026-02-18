@@ -1669,6 +1669,23 @@ button,
 summary {
   cursor: pointer;
 }
+/* -- Soft-pulse glow animation for DL badges -- */
+@keyframes soft-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+  50%      { box-shadow: 0 0 24px 4px rgba(255, 255, 255, 0.45); }
+}
+@keyframes soft-pulse-pink {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(197, 56, 95, 0); }
+  50%      { box-shadow: 0 0 24px 4px rgba(197, 56, 95, 0.18); }
+}
+.app-download__badges {
+  border-radius: 28px;
+  animation: soft-pulse 3s ease-in-out infinite;
+}
+.cta__app-badges {
+  border-radius: 28px;
+  animation: soft-pulse-pink 3s ease-in-out infinite;
+}
 @media (max-width: 768px) {
   .app-download__badge-link,
   .products__item,
