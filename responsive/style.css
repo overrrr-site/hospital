@@ -712,7 +712,7 @@ a {
   white-space: nowrap;
 }
 .benefits__card-header-img {
-  width: 314px;
+  width: 100%;
   display: block;
   margin-top: 14px;
 }
@@ -1284,8 +1284,7 @@ a {
   line-height: normal;
 }
 .campaign-secondary__badge-img {
-  width: 368px;
-  max-width: 100%;
+  width: calc(100% + 20px);
   height: 33px;
   position: absolute;
   top: 4px;
@@ -1839,7 +1838,7 @@ summary {
     z-index: 1;
   }
   .header__sub-logo {
-    width: 130px;
+    width: 85px;
     height: auto;
   }
   .hero {
@@ -2049,8 +2048,7 @@ summary {
     height: auto;
   }
   .page .campaign-secondary__badge-img {
-    width: 500px;
-    max-width: none;
+    width: calc(100% + 40px);
     height: 34px;
   }
   .campaign-secondary__code-box {
