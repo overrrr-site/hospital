@@ -1462,6 +1462,10 @@ a {
   color: var(--color-text);
   line-height: 24px;
 }
+.faq__answer-code {
+  font-weight: var(--fw-bold);
+  color: var(--color-primary);
+}
 .faq__answer-link {
   font-weight: var(--fw-bold);
   color: var(--color-link-muted);
